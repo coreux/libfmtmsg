@@ -79,6 +79,7 @@ http://pubs.opengroup.org/onlinepubs/009695399/basedefs/fmtmsg.h.html
 
 __UX_BEGIN_DECLS
 
+/* display a message in the specified format on standard error and/or a system console */
 int fmtmsg(long classification, const char *label, int severity, const char *text, const char *action, const char *tag) __UX_SYM03(fmtmsg);
 
 __UX_END_DECLS
